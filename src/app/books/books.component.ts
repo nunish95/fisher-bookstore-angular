@@ -8,7 +8,7 @@ import {BOOKS} from '../books/mock-book-service'
 })
 export class BooksComponent implements OnInit {
  
-  book=BOOKS;
+  books=BOOKS;
   constructor() { }
 
   ngOnInit() {
